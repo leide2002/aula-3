@@ -7,12 +7,12 @@ gazolina = 5.80
 etanol = 4.90
 
 
-if valor == "g":
+if valor == "G" or valor == "g":
     precog = gazolina * litros
-    print (f" o valor da gasolina e de {gazolina} o total deu {precog}" )
+    print (f" o valor da gasolina e de {gazolina} o total deu {precog}")
 
 else:
-    if valor == "e":
+    if valor == "E" or valor == "e":
         precoe = etanol * litros
         print(f" o valor do {etanol} e o total deu{precoe}")
 
