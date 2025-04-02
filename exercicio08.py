@@ -12,3 +12,4 @@ else:
         print(f"se o gols do {time1}, for igual que o do {time2}, e empate:")
     else:
         print("empate")
+
