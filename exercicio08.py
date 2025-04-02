@@ -5,7 +5,7 @@ gols1 = int(input("quantos gols time um fez:"))
 gols2 = int(input ("quantos gols time dois fez:" ))
 
 if gols1>gols2:
-    print (f"se for o gols do {time1}, for maior que o {time2}, esta aprovado:")
+    print (f"se for o gols do {time1}, for maior que o {time2},o time ganha:")
 
 else:
     if(gols2>gols1):
